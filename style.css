@@ -1,0 +1,54 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image:url(./pexels-pixabay-531880.jpg);
+    background-size:cover;
+}
+.container{
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+}
+.card{
+    padding:60px 40px 50px 40px;
+    background: black;
+    border-radius:10px;
+    position:relative;
+}
+#name{
+    width:200px;
+    border:none;
+    background:transparent;
+    border-bottom:1px solid rgb(230, 223, 223);
+    padding:7px;
+    margin-bottom:20px;
+    color:white;
+}
+#button{
+    border-radius:20px;
+    padding:10px 20px;
+    background: rgb(29, 124, 219);
+    color: white;
+    margin-top:20px;
+    border:none;
+    outline:none;
+    margin-left:50px;
+}
+#button:hover{
+    background-color:greenyellow;
+    color:black;
+}
+a{
+    font-size:13px;
+    color: blue;
+    text-decoration: none;
+}
+img{
+    border-radius:50%;
+    position:absolute;
+    margin-left: 100px;
+    margin-top:-50px;
+    cursor:pointer;
+}
